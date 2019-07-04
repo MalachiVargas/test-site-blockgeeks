@@ -1,0 +1,27 @@
+
+.orange-text {
+    color: orange;
+}
+h1 {
+    color: rgb(58, 92, 185);
+    font-family: 'Inconsolata', monospace;
+}
+p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.smaller-image {
+    height: 550px; 
+    width: auto;
+}
+.thin-blue-border {
+    border-style: solid;
+    max-width: 225px;
+    margin-right: auto;
+    border: 3px solid rgb(51, 51, 88);
+    border-radius: 10px;
+}
