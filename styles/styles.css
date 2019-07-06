@@ -1,16 +1,19 @@
-
+.thin-photo-border {
+    border: 3px solid rgb(120, 120, 240); 
+    border-radius: 20%;
+}
 .orange-text {
     color: orange;
 }
 h1 {
-    color: rgb(58, 92, 185);
+    color: rgb(94, 114, 168);
     font-family: 'Inconsolata', monospace;
 }
 p {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-ul {
+ul li {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -18,10 +21,15 @@ ul {
     height: 550px; 
     width: auto;
 }
-.thin-blue-border {
-    border-style: solid;
-    max-width: 225px;
-    margin-right: auto;
-    border: 3px solid rgb(51, 51, 88);
-    border-radius: 10px;
+
+#choose-your-adventure-text {
+    background-color: rgb(102, 69, 75);
+    color: #fff;
+    padding: 20px;
 }
+
+#main-view {
+    background-color: rgb(108, 153, 155);
+    text-align: center;
+    list-style-position: inside;
+};

@@ -4,34 +4,50 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap" rel="stylesheet">
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
-        <meta charset="utf-8">
+        <meta charset=UTF-8/>
+
         <title>
             My test page
         </title>
     </head>
-
-    <h1 class= "thin-blue-border">
-        Thailand Views
-    </h1> 
-
+    <div id= "main-view">
+        <h1 id="main-title" >
+            Thailand Views
+        </h1> 
     <body>
-        <img class="smaller-image" src="images/Thailand.png" alt="Picture of sunrise in Thailand">
-        <div></div>
-        <p class="orange-text">
-            In Thailand, there are many adventures you can experience, such as:
-        </p> 
-        <ul class="orange-text">
-            <li>
-                sunrise photograpy
-            </li>
-            <li>
-                motorbike riding
-            </li>
-            <li>
-                full moon parties
-            </li>
-        </ul>
+        <img class="smaller-image thin-photo-border" src="images/Thailand.png" 
+        alt="Picture of sunrise in Thailand" id="first-image">
+        <div id= choose-your-adventure-text>
+            <p>
+                In Thailand, there are many adventures you can experience, such as:
+            </p>
+                <ul class="orange-text">
+                    <li>
+                        sunrise photograpy
+                    </li><li>
+                        motorbike riding
+                    </li><li>
+                        full moon parties!
+                    </li>
+                </ul>
+            <p>
+                Choose your own adventure!
+            </p>
+                
+            
+        </div>
+        <div>
+        <form id="choose-your-adventure-form" action="/choose-your-adventure">
+            <label><input type="radio" name="location" checked> Egypt</label>
+            <label><input type="radio" name="location"> Indonesia</label><br>
+            <label><input type="checkbox" name="event" checked> Beach</label>
+            <label><input type="checkbox" name="event"> City</label>
+            <label><input type="checkbox" name="event"> Forest</label><br>
+            <input type="text" placeholder="airbnb link" required>
+            <button type="submit">Submit</button>
+          </form>
         </div>
         <script src= "scripts/main.js"></script>
     </body>
+    </div>
 </html>
